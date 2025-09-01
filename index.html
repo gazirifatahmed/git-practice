@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Gazi Rifat Ahmed | Full-Stack Developer</title>
   <meta name="description" content="Official website of Gazi Rifat Ahmed — Full-Stack Developer (Java, Spring Boot, Flutter, MySQL, Firebase). Explore projects, skills, and GitHub profile.">
   <meta name="keywords" content="Gazi Rifat Ahmed, Full-Stack Developer, Java Developer, Spring Boot, Flutter Developer, MySQL, Firebase, Software Engineer, GitHub Portfolio">
-  <meta name="author" content="Gazi Rifat Ahmed">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="Gazi Rifat Ahmed" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
 
   <!-- Google Search Console -->
   <!-- <meta name="google-site-verification" content="YOUR_TOKEN_FROM_GSC" /> -->
 
-  <link rel="canonical" href="https://gazirifatahmed.github.io/">
+  <link rel="canonical" href="https://gazirifatahmed.github.io/" />
 
-  <!-- Social Preview -->
-  <meta property="og:title" content="Gazi Rifat Ahmed — Full-Stack Developer">
-  <meta property="og:description" content="Portfolio, projects, and GitHub profile of Gazi Rifat Ahmed. Skilled in Java, Spring Boot, Flutter, MySQL.">
-  <meta property="og:url" content="https://gazirifatahmed.github.io/">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://i.imgur.com/AiFsVA3.jpeg">
-  <meta property="og:image:alt" content="Gazi Rifat Ahmed — Full-Stack Developer">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gazi Rifat Ahmed — Full-Stack Developer" />
+  <meta property="og:description" content="Portfolio, projects, and GitHub profile of Gazi Rifat Ahmed. Skilled in Java, Spring Boot, Flutter, MySQL." />
+  <meta property="og:url" content="https://gazirifatahmed.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://i.imgur.com/AiFsVA3.jpeg" />
+  <meta property="og:image:alt" content="Gazi Rifat Ahmed — Full-Stack Developer" />
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Gazi Rifat Ahmed — Full-Stack Developer">
-  <meta name="twitter:description" content="Explore projects, skills and GitHub profile of Gazi Rifat Ahmed (Java, Spring Boot, Flutter, MySQL, Firebase).">
-  <meta name="twitter:image" content="https://i.imgur.com/AiFsVA3.jpeg">
-  <meta name="twitter:site" content="@gazirifatahmed">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gazi Rifat Ahmed — Full-Stack Developer" />
+  <meta name="twitter:description" content="Explore projects, skills and GitHub profile of Gazi Rifat Ahmed (Java, Spring Boot, Flutter, MySQL, Firebase)." />
+  <meta name="twitter:image" content="https://i.imgur.com/AiFsVA3.jpeg" />
+  <meta name="twitter:site" content="@gazirifatahmed" />
 
-  <link rel="stylesheet" href="style.css">
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gazi Rifat Ahmed",
+    "url": "https://gazirifatahmed.github.io/",
+    "jobTitle": "Full-Stack Developer",
+    "image": "https://i.imgur.com/AiFsVA3.jpeg",
+    "email": "mailto:gazirifatahmed@gmail.com",
+    "sameAs": [
+      "https://github.com/gazirifatahmed",
+      "https://twitter.com/gazirifatahmed",
+      "https://www.linkedin.com/in/gazi-rifat-ahmed-11888a1a5/"
+    ],
+    "knowsAbout": ["Java","Spring Boot","Flutter","MySQL","Firebase","SEO","Digital Marketing"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header role="banner">
-    <h1>🌟 Gazi Rifat Ahmed — Full-Stack Developer 🌟</h1>
+  <header role="banner" class="site-header">
+    <h1>Gazi Rifat Ahmed — Full-Stack Developer</h1>
     <nav aria-label="Primary" role="navigation">
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
@@ -44,22 +64,32 @@
     </nav>
   </header>
 
-  <!-- Hero Section with Background Image -->
-  <section class="hero" id="home">
-    <div class="overlay">
+  <!-- HERO with real <img> background -->
+  <section class="hero" id="home" aria-label="Hero banner">
+    <img
+      src="https://i.imgur.com/AiFsVA3.jpeg"
+      alt="Banner: Gazi Rifat Ahmed — Full-Stack Developer"
+      class="hero__bg"
+      loading="eager"
+      decoding="async"
+    />
+    <div class="hero__shade"></div>
+    <div class="hero__content">
       <h2>👋 Welcome to the Official Website of <span class="highlight">Gazi Rifat Ahmed</span></h2>
-      <p>I’m a passionate <strong>Full-Stack Developer</strong> skilled in
-         <strong>Java, Spring Boot, Flutter, MySQL, and Firebase</strong>.
-         This portfolio showcases my projects, skills, and professional journey.</p>
-      <p>👉 Visit my GitHub profile:
-         <a href="https://github.com/gazirifatahmed" target="_blank" rel="noopener">github.com/gazirifatahmed</a>
+      <p>
+        I’m a passionate <strong>Full-Stack Developer</strong> skilled in
+        <strong>Java, Spring Boot, Flutter, MySQL, and Firebase</strong>.
+        This portfolio showcases my projects, skills, and professional journey.
       </p>
-      <a href="#contact" class="btn">✨ Hire Gazi Rifat Ahmed ✨</a>
+      <p>
+        👉 Visit my GitHub profile:
+        <a href="https://github.com/gazirifatahmed" target="_blank" rel="noopener">github.com/gazirifatahmed</a>
+      </p>
+      <a href="#contact" class="btn btn--primary">✨ Hire Gazi Rifat Ahmed ✨</a>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="services" id="services">
+  <section class="card services" id="services">
     <h2>💼 What I Do</h2>
     <ul>
       <li>✔ Web Application Development with <strong>Java &amp; Spring Boot</strong></li>
@@ -69,8 +99,7 @@
     </ul>
   </section>
 
-  <!-- Projects Section -->
-  <section class="projects" id="projects">
+  <section class="card projects" id="projects">
     <h2>🚀 Featured Projects by Gazi Rifat Ahmed</h2>
     <p>Some of my open-source work is available on GitHub:</p>
     <ul>
@@ -80,16 +109,17 @@
     </ul>
   </section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
+  <section class="card contact" id="contact" itemscope itemtype="https://schema.org/ContactPoint">
     <h2>📬 Contact Gazi Rifat Ahmed</h2>
-    <p>Email: <a href="mailto:gazirifatahmed@gmail.com">gazirifatahmed@gmail.com</a></p>
+    <p>Email: <a href="mailto:gazirifatahmed@gmail.com" itemprop="email">gazirifatahmed@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/gazi-rifat-ahmed-11888a1a5/" target="_blank" rel="noopener">linkedin.com/in/gazi-rifat-ahmed</a></p>
     <p>Twitter: <a href="https://twitter.com/gazirifatahmed" target="_blank" rel="noopener">@gazirifatahmed</a></p>
   </section>
 
-  <footer role="contentinfo">
-    <p>&copy; 2025 🌐 Gazi Rifat Ahmed | Full-Stack Developer</p>
+  <footer role="contentinfo" class="site-footer">
+    <p>&copy; 2025 Gazi Rifat Ahmed | Full-Stack Developer</p>
   </footer>
+
+  <noscript>Your browser has JavaScript disabled. The site works, but some enhancements are hidden.</noscript>
 </body>
 </html>
